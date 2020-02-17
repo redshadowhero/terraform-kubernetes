@@ -1,0 +1,27 @@
+# use your DO api token here
+do_token = "YOUR_DO_TOKEN_HERE"
+# change this to the ID of your ssh key in digitalocean. If you don't know, install the doctl command
+# and run `doctl compute ssh-key list`
+do_ssh_key = 12345
+# optional, change to true to enable setting domain names for your droplets
+#do_dns_enabled = false
+# optional, if do_dns_enabled is true, change this to your domain name that's configured in digitalocean
+#do_domain_name = "domain.example.com"
+# optional, change this to an image that you want to boot off of. Defaults to a Centos7 image
+#do_image = "centos-7-x64"
+# optional, choose an image size for the master nodes to be
+#master_compute_size = "s-2vcpu-2gb"
+# optional, choose an image size for the worker nodes to be
+#worker_compute_size = "s-2vcpu-2gb"
+# optional, change this to the number of master nodes you want to have (default 3)
+#master_node_count = 3
+# optional, change this to the number of worker nodes you want to have (default 2)
+#worker_node_count = 2
+# optional, change this to the name prefix you want the master hosts to have
+#do_master_name = "kube-master"
+# optional, change this to the name prefix you want the worker hosts to have
+#do_worker_name = "kube-worker"
+# optional, change this to the region to create the infrastructure in (default is nyc1)
+#do_region = "nyc1"
+# optional, change this to the project to encapsulate all these items under
+#do_project = "kubespray"

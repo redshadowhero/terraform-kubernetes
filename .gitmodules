@@ -1,0 +1,6 @@
+[submodule "vendor/kubespray"]
+	path = vendor/kubespray
+	url = https://github.com/kubernetes-sigs/kubespray
+[submodule "vendor/terraform-inventory"]
+	path = vendor/terraform-inventory
+	url = https://github.com/nbering/terraform-inventory
